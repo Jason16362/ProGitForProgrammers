@@ -5,4 +5,9 @@ class Book
     public List<string> Author { get; set; }
 
     public DateTime PublicationDate { get; set; }
+
+    string CreateBook()
+    {
+        return "book";
+    }
 }
